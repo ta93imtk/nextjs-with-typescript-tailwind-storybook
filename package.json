@@ -14,15 +14,15 @@
     },
     "husky": {
         "hooks": {
-          "pre-commit": "lint-staged"
+            "pre-commit": "lint-staged"
         }
-      },
-      "lint-staged": {
+    },
+    "lint-staged": {
         "*.{js,jsx,ts,tsx}": [
-          "yarn lint",
-          "yarn format"
+            "yarn lint",
+            "yarn format"
         ]
-      },
+    },
     "dependencies": {
         "@tailwindcss/postcss7-compat": "^2.0.2",
         "autoprefixer": "^9",
